@@ -1,6 +1,6 @@
 class CalcEngine
   def run_calculator
-    puts '-------------'
+    puts '------------'
     puts 'What is you name?'
     user_input = gets.chomp
     puts "Your name is #{user_input}"
