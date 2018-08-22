@@ -1,9 +1,10 @@
 class Shapes
-  attr_accessor :length, :height
+  attr_accessor :name, :length, :height
 
-  def initialize(length, height = 0)
+  def initialize(name, length, height = 0)
     self.length = length
     self.height = height
+    self.name = name
   end
 
   def get_length
@@ -32,6 +33,6 @@ class Shapes
   end
 
   def description
-    puts "Area: #{calculate_area} Perimeter: #{calculate_perimeter}"
+    puts "Area: #{calculate_area} Perimeter: #{calculate_perimeter} of #{name}"
   end
 end

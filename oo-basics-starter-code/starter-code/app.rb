@@ -1,9 +1,9 @@
 require_relative 'shapes.rb'
 require_relative 'circle.rb'
 
-square = Shapes.new(5)
-rectangle = Shapes.new(5, 3)
-circle = Circle.new(8)
+square = Shapes.new(:square, 5)
+rectangle = Shapes.new(:rectangle, 5, 3)
+circle = Circle.new(:circle, 8)
 
 square.description
 rectangle.description
